@@ -1,6 +1,6 @@
-import Navbar from './components/navbar.js'
+import Navbar from './components/navbar'
 import './App.css';
-import Login from './Componants/Login'
+
 
 function App() {
   return (
@@ -9,12 +9,12 @@ function App() {
           <Navbar/>
       </div>
 
-    <div className="App">
-      <header className="App-header">
-        < Login />
-      </header>
+    {/*<div className="App">*/}
+    {/*  <header className="App-header">*/}
+    {/*    < Login />*/}
+    {/*  </header>*/}
           </div>
-          </div>
+         
 
   );
 }

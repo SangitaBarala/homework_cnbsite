@@ -1,7 +1,8 @@
 import React from 'react'
-import './components/navbar.css'
+
 
 const Navbar = () => {
+   
     return (
         <div className="container">
         <h1>CNB NET</h1>
