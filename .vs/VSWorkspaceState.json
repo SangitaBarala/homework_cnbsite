@@ -4,6 +4,10 @@
     "\\src",
     "\\src\\Componants"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\src\\Componants\\Login.tsx",
+=======
+  "SelectedNode": "\\package.json",
+>>>>>>> 96fdf13c9fa5191ca333e90b5ea1e2ac0625e878
   "PreviewInSolutionExplorer": false
 }
