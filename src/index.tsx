@@ -14,4 +14,7 @@ ReactDOM.render(
 
 reportWebVitals();
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 813f506d4d063f2b4d87cb6737392c612bb3b7e6
