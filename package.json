@@ -1,7 +1,16 @@
 {
-  "name": "as2_client",
-  "version": "0.1.0",
-  "private": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -19,11 +28,11 @@
     "typescript": "^4.3.5",
     "web-vitals": "^1.1.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@types/node": "^12.20.16",
+    "@types/react-router-dom": "^5.1.8",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   },
   "eslintConfig": {
     "extends": [
@@ -31,30 +40,21 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-<<<<<<< HEAD
-  "devDependencies": {
-    "@types/node": "^12.20.16",
-    "@types/react-router-dom": "^5.1.8",
-    "cors": "^2.8.5",
-    "express": "^4.17.1"
-  }
-=======
+  "name": "as2_client",
+  "private": true,
   "resolve": {
     "extensions": [
-      ".js",".json",".ts",".tsx"
+      ".js",
+      ".json",
+      ".ts",
+      ".tsx"
     ]
-  } 
->>>>>>> 96fdf13c9fa5191ca333e90b5ea1e2ac0625e878
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "version": "0.1.0"
 }
