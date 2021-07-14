@@ -1,8 +1,7 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as  Route, Link } from "react-router-dom";
 
- class Register extends Component {
-    render() {
+ function Register() {
         return (
             <form>
                 <h3>Sign Up</h3>
@@ -34,6 +33,5 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
             </form>
         );
     }
-}
 
 export default Register;

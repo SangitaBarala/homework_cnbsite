@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-class Login extends Component {
-    render() {
+function Login() {
         return (
             <form>
                 <h3>Sign In</h3>
@@ -30,5 +29,5 @@ class Login extends Component {
             </form>
         );
     }
-}
+
 export default Login;
