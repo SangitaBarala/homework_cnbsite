@@ -1,0 +1,31 @@
+.cnbTitle {
+    text-align: center;
+    color: #02382d;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 70px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+.cnbSubTitle {
+    margin-left: 20px;
+    color: #02382d;
+}
+.btn btn-primary {
+    text-align:center;
+    background-color:aqua;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #f5f0f0;
+    padding: 10px;
+}
+.grid-item {
+    background-color: #bfb6b6;
+    border: 0.5px solid rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+}
+
