@@ -1,45 +1,55 @@
-import React, { Component } from "react";
-<<<<<<< HEAD
-=======
+
+import React, { useState } from "react";
 import "./style.css"
->>>>>>> 813f506d4d063f2b4d87cb6737392c612bb3b7e6
 
-function Login() {
-        return (
-            <form>
-                <h3>Sign In</h3>
 
-                <div className="form-group">
-                    <label>Email address</label>
-<<<<<<< HEAD
-                    <input type="email" className="form-control" placeholder="Enter email" />
-=======
-                    <input type="email" className="form-control" placeholder="Enter email" required />
->>>>>>> 813f506d4d063f2b4d87cb6737392c612bb3b7e6
-                </div>
+const Login = () => {
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
 
-                <div className="form-group">
-                    <label>Password</label>
-<<<<<<< HEAD
-                    <input type="password" className="form-control" placeholder="Enter password" />
-=======
-                    <input type="password" className="form-control" placeholder="Enter password" required />
->>>>>>> 813f506d4d063f2b4d87cb6737392c612bb3b7e6
-                </div>
+    const [allUsers, setAllUsers] = useState<Array<any>>([])
 
-                <div className="form-group">
-                    <div className="custom-control custom-checkbox">
-                        <input type="checkbox" className="custom-control-input" id="customCheck1" />
-                        <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
-                    </div>
-                </div>
+    const submitForm = (e: { preventDefault: () => void; }): void => {
+        e.preventDefault()
+        const newUser = { email: email, password: password }
 
-                <button type="submit" className="btn btn-primary btn-block">Submit</button>
-                <p className="forgot-password text-right">
-                    Forgot <a href="#">password?</a>
-                </p>
-            </form>
-        );
+        setAllUsers([...allUsers, newUser])
+        console.log(allUsers)
     }
+    return (
+        <form action="" onSubmit={submitForm}>
+            <h3>Sign In</h3>
+
+            <div className="form-group">
+
+                <label>Email address</label>
+                <input type="email" className="form-control" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+            </div>
+
+            <div className="form-group">
+                <label>Password</label>
+                <input type="password" className="form-control" placeholder="Enter password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+
+            </div>
+
+            <div className="form-group">
+                <div className="custom-control custom-checkbox">
+                    <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                    <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
+                </div>
+            </div>
+
+            <button type="submit" className="btn btn-primary btn-block">Submit</button>
+            <p className="forgot-password text-right">
+                <div>
+                    Forgot <a href="#">password?</a>
+                </div>
+                <div>
+                    New user? <a href={"/sign-up"}>Register</a>
+                </div>
+            </p>
+        </form>
+    );
+}
 
 export default Login;
