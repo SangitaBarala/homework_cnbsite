@@ -4,15 +4,13 @@ import { Link } from "react-router-dom"
 import VendorDropdown from './Dropdown';
 import Button from "./Button";
 import './Navbar.css'
-import Login from '../Authentication/Login'
 import CnbItemsDropdown from './CnbItemsDropdown';
-import Navbar1 from "../Authentication/Navbar1"
 
-//import cnblogo from "./cnblogo.png"
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const [dropdown, setDropdown] = useState(false)
+    const [cnbdropdown, setCnbDropdown] = useState(false)
 
     const handleClick = () => setClick(!click)
 
@@ -32,7 +30,20 @@ const Navbar = () => {
             setDropdown(false)
         }
     }
-   
+    const onMouseEnterCnb = () => {
+        if (window.innerWidth < 960) {
+            setCnbDropdown(false)
+        } else {
+            setCnbDropdown(true)
+        }
+    }
+    const onMouseLeaveCnb = () => {
+        if (window.innerWidth < 960) {
+            setCnbDropdown(false)
+        } else {
+            setCnbDropdown(false)
+        }
+    }
     
     return (
         <div>
@@ -56,13 +67,12 @@ const Navbar = () => {
                         </Link>
                         {dropdown && <VendorDropdown />}
                     </li>
-                    <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                    <li className='nav-item' onMouseEnter={onMouseEnterCnb} onMouseLeave={onMouseLeaveCnb}>
                         <Link to="/cnbServices" className="nav-links" onClick={closeMenu}>
                             CNB <i className="fas fa-caret-down" />
                         </Link>
-                        {dropdown && <CnbItemsDropdown/>}
+                        {cnbdropdown && <CnbItemsDropdown />}
                     </li>
-                    <Navbar1/>
                 </ul>
                 <Button/>
             </nav>

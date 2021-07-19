@@ -1,18 +1,4 @@
-import React, { Component } from "react";
-<<<<<<< HEAD
-import { BrowserRouter as Route, Switch, Link } from "react-router-dom";
-import Login from '../Authentication/Login'
-import Register from '../Authentication/Register'
 
-const Navbar1 = () => {
-    return (
-        <div className="App">
-            
-        </div>
-        )
-}
-export default Navbar1
-=======
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Login from "./Login";
 import Register from "./Register";
@@ -49,4 +35,4 @@ function Navbar() {
 }
 
 export default Navbar;
->>>>>>> 813f506d4d063f2b4d87cb6737392c612bb3b7e6
+

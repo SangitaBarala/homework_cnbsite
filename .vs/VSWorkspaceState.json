@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\Componants"
+    "\\src\\Authentication",
+    "\\src\\CnbTop",
+    "\\src\\Components",
+    "\\src\\Grids"
   ],
-<<<<<<< HEAD
-  "SelectedNode": "\\src\\Componants\\Login.tsx",
-=======
-  "SelectedNode": "\\package.json",
->>>>>>> 96fdf13c9fa5191ca333e90b5ea1e2ac0625e878
+  "SelectedNode": "\\src\\Components\\CnbItemsDropdown.tsx",
   "PreviewInSolutionExplorer": false
 }

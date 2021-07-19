@@ -5,11 +5,6 @@
 }
 
 body {
-<<<<<<< HEAD
-    background: #1C8EF9 !important;
-=======
-    background: #7d7d85 !important;
->>>>>>> 813f506d4d063f2b4d87cb6737392c612bb3b7e6
     min-height: 100vh;
     display: flex;
     font-weight: 400;
