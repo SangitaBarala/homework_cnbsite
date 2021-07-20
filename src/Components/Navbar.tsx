@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { BrowserRouter as Route, Switch} from "react-router-dom";
 import { Link } from "react-router-dom"
 import VendorDropdown from './Dropdown';
 import Button from "./Button";

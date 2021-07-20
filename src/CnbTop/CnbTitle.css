@@ -1,0 +1,51 @@
+.main-container{
+    margin:0 auto;
+    align-items:center;
+    justify-content:space-between;
+    text-align:center;
+}
+.cnbTitle {
+    text-align: center;
+    color: #02382d;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 70px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.cnbSubTitle {
+    margin-left: 20px;
+    color: #02382d;
+    margin-bottom:20px;
+}
+.CnbLogoImg{
+   margin-bottom:20px;
+    width:800px;
+    height:300px;
+}
+.row{
+   display:flex;
+   flex-direction:row;
+}
+
+.titleBtn {
+    text-align: center;
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    height:10px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.grid-item {
+    text-align:center;
+    margin-top: 20px;
+    margin-left:10px;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+}
+
