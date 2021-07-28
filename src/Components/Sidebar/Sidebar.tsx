@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import './Sidebar.css'
 import ArrowForward from '@material-ui/icons/ArrowForwardIos';
 import {sidebarData} from './SidebarList'
-import MainTable from "../TableData/MainTable";
+//import MainTable from "../TableData/MainTable";
+import MainTable2 from '../TableData/MainTable2'
 
 const Sidebar = () => {
+    const [state, setState] = useState()
+    const handleChange = (e: any) => {
+       setState(e.target.value)
+    }
     return(
         <div className="main-class">
             <div className="sidebar">
@@ -31,18 +36,18 @@ const Sidebar = () => {
                         <button>Cancelled Orders</button>
                         <button>Shopify Orders</button>
                         <button>Send Tracking Number</button>
-
-                        <select className = "dropdown">
+                        <select value={state} onChange={()=>handleChange} className = "dropdown">
                             <option value="N/A">N/A</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
+                            <option value="1">5</option>
+                            <option value="2">10</option>
+                            <option value="3">15</option>
+                            <option value="4">20</option>
                         </select>
                     </div>
                 </div>
                 <div className="subclass">
-                   <MainTable/>
+                   {/*<MainTable/>*/}
+                    <MainTable2/>
                 </div>
             </div>
         </div>

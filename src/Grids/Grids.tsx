@@ -6,13 +6,10 @@ import ReactPaginate from 'react-paginate'
 
 
 const GridShow = () => {
-
-    const [replace, setReplace] = useState(false)
     const [infoGrid, setInfoGrid] = useState(GridList.slice(0, 10))
     const [pageNumber, setPageNumber] = useState(0)
     const gridPerPage = 1;
     const pageVisited = pageNumber * gridPerPage;
-
 
     const displayGrid = infoGrid.slice(pageVisited, pageVisited + gridPerPage).map((curElem)=>{
         return(
@@ -41,9 +38,7 @@ const GridShow = () => {
                         </>
                     );
                 })}
-
             </section>
-
         )
     })
 

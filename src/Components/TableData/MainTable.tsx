@@ -4,7 +4,6 @@ import {COLUMNS} from "./Columns";
 import TableData from './TableData.json'
 import './Table.css'
 
-
 const MainTable = () => {
     const columns = useMemo(() => COLUMNS, [])
     const data = useMemo(() => TableData, [])
@@ -39,6 +38,7 @@ const MainTable = () => {
                 })}
                 </tbody>
             </table>
+
         </div>
     )
 }

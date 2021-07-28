@@ -22,3 +22,51 @@
     background-color: #073d29;
     color: white;
 }
+
+/*--------Pagination button styles-----*/
+
+.pagination{
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.pagination button{
+    background-color: #06c6b7;
+    padding: 10px;
+    height: 35px;
+    margin: 7px;
+    border: 1px solid #064737;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #111111;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pagination button:hover{
+    background-color: #2b69d5;
+    color: white;
+}
+.pageNumber{
+    font-size: 14px;
+    margin: 7px;
+    padding:8px;
+    border-radius: 4px;
+}
+.paginationBtns a{
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #2386ef;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.paginationBtns a:hover{
+    background-color: #2386ef;
+    color: white;
+}
+.paginationActive a{
+    background-color: #2386ef;
+    color: white;
+}

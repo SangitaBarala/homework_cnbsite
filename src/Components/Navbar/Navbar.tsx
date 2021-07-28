@@ -4,7 +4,6 @@ import {Switch, Route} from 'react-router-dom'
 import VendorDropdown from '../Vendors/VendorDropdownList';
 import Btn from "../Btn";
 import '../Btn.css'
-import '../../Authentication/style.css'
 import './Navbar.css'
 import CnbItemsDropdown from '../CNB/CnbItemsDropdown';
 // import Login from "../Authentication/Login";
