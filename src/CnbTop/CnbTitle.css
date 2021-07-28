@@ -1,5 +1,8 @@
+.container2{
+    margin-bottom: 10px;
+}
 .main-container{
-    margin:0 auto;
+    /*margin:0 auto;*/
     align-items:center;
     justify-content:space-between;
     text-align:center;
@@ -7,7 +10,7 @@
 .cnbTitle {
     text-align: center;
     color: #02382d;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 20px;
     font-size: 70px;
     font-family: 'Encode Sans SC', sans-serif;
@@ -41,11 +44,11 @@
 }
 
 .grid-item {
+    background-color: #eeeee6;
     text-align:center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left:10px;
     padding: 10px;
     height: auto;
-    text-align: center;
 }
 

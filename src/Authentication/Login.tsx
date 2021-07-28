@@ -1,7 +1,5 @@
-
 import React, { useState } from "react";
 import "./style.css"
-
 
 const Login = () => {
     const [email, setEmail] = useState("")
@@ -17,11 +15,10 @@ const Login = () => {
         console.log(allUsers)
     }
     return (
+
         <form action="" onSubmit={submitForm}>
             <h3>Sign In</h3>
-
             <div className="form-group">
-
                 <label>Email address</label>
                 <input type="email" className="form-control" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)} required />
             </div>
@@ -29,7 +26,6 @@ const Login = () => {
             <div className="form-group">
                 <label>Password</label>
                 <input type="password" className="form-control" placeholder="Enter password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-
             </div>
 
             <div className="form-group">
@@ -49,6 +45,7 @@ const Login = () => {
                 </div>
             </p>
         </form>
+
     );
 }
 

@@ -13,7 +13,7 @@ const CnbTitle = () => {
             </div>
            
             <div className="grid-item">
-                <GridShow/>
+                {/*<GridShow/>*/}
             </div>
         </div>
     )

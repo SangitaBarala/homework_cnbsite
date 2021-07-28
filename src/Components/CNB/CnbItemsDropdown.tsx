@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CnbItems } from './CnbItems'
-import './Dropdown.css';
+import '../Dropdown.css';
 import { Link } from 'react-router-dom';
 
 function CnbItemsDropdown() {

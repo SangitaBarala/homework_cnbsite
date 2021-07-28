@@ -23,7 +23,6 @@ const Register = () => {
 
     const handleSubmit = (e: any): void => {
         e.preventDefault()
-
         const newRecord = { ...user, id: new Date().getTime().toString() }
         setRecords([...records, newRecord])
         console.log(newRecord)

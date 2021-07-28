@@ -1,6 +1,22 @@
-* {
+/** {*/
+/*    box-sizing: border-box;*/
+/*    margin: 0 auto;*/
+/*    padding: 0;*/
+/*    font-family: 'PT Sans', sans-serif;*/
+/*}*/
+html {
+    background: #faf7f2;
+    background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
+    /*box-sizing: border-box;*/
+    font-size: 14px;
+    font-weight: 400;
+}
+
+*,
+*:before,
+*:after {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
 }
