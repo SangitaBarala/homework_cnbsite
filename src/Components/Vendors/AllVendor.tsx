@@ -1,17 +1,23 @@
-import React from "react";
+import React, {useState} from "react";
+import Footer from "../Footer/Footer";
 import '../../Grids/Grids.css'
-//import CnbTitle from "../CnbTitle/CnbTitle";
-import {AllVendorsList} from "./AllVendorsList";
+import CnbTitle from "../../CnbTop/CnbTitle";
+import AllVendorsList from "./AllVendorsList";
 
-const Shopify = () => {
+// @ts-ignore
+const AllVendors = ({data, cardIndex}) => {
+    const [active, setActive] = useState("one")
+    // @ts-ignore
+    // @ts-ignore
     return (
         <div id="home">
             <section className="main-card--container">
-                {AllVendorsList.map((curElem) => {
+
+                {data[cardIndex].map((curElem: any, key: any) => {
                     const {id, title, subtitle, path, description} = curElem;
                     return (
                         <>
-                            <div className="card-container" key={id}>
+                            <div className="card-container" key={key}>
                                 <div className="card ">
                                     <div className="card-body">
                                         <span className="card-number card-circle subtle">{id}</span>
@@ -31,7 +37,8 @@ const Shopify = () => {
                     );
                 })}
             </section>
+            {/*<Footer/>*/}
         </div>
     )
 }
-export default Shopify
+export default AllVendors

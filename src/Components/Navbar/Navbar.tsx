@@ -1,11 +1,13 @@
 import React, { useState} from "react";
 import {Link} from "react-router-dom"
-import {Switch, Route} from 'react-router-dom'
+//import {Switch, Route} from 'react-router-dom'
 import VendorDropdown from '../Vendors/VendorDropdownList';
 import Btn from "../Btn";
 import '../Btn.css'
 import './Navbar.css'
 import CnbItemsDropdown from '../CNB/CnbItemsDropdown';
+import MenuItems from "../Vendors/MenuItems";
+import AllVendors from "../Vendors/AllVendor";
 // import Login from "../Authentication/Login";
 // import Register from "../Authentication/Register";
 
@@ -61,15 +63,21 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to="/" className="nav-links" onClick={closeMenu}>
+                        <a href="#home" className="nav-links" onClick={closeMenu}>
                             Home
-                        </Link>
+                        </a>
                     </li>
                     <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                         <Link to="/vendors" className="nav-links" onClick={closeMenu}>
                             Vendors <i className="fas fa-caret-down"/>
                         </Link>
-                        {dropdown && <VendorDropdown/>}
+
+                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={0}/>}
+                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={1}/>}
+                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={2}/>}
+                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={3}/>}
+                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={4}/>}
+
                     </li>
                     <li className='nav-item'  onMouseEnter={onMouseEnterCnb} onMouseLeave={onMouseLeaveCnb}>
                         <Link to="/cnbServices" className="nav-links" onClick={closeMenu}>

@@ -93,7 +93,7 @@ const MainTable2 = () =>
                     onChange={e => {
                         setPageSize(Number(e.target.value))
                     }}>
-                    {[10, 15, 20].map(pageSize => (
+                    {[4,6,8,10].map(pageSize => (
                         <option key={pageSize} value={pageSize}>Show {pageSize}</option>
                     ))}
                 </select>

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0e213c8-cd37-433b-af40-32ebd5be0c33" name="Default Changelist" comment="" />
+    <list default="true" id="b0e213c8-cd37-433b-af40-32ebd5be0c33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CnbTop/CnbTitle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CnbTop/CnbTitle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CnbTop/CnbTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CnbTop/CnbTitle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TableData/MainTable2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TableData/MainTable2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Vendors/AllVendor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vendors/AllVendor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Vendors/AllVendorsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vendors/AllVendorsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Vendors/MenuItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vendors/MenuItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Vendors/VendorDropdownList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vendors/VendorDropdownList.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\Devintern\Desktop\as2_client\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\sangi\Desktop\saved_cnbsite\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -58,10 +71,27 @@
       <workItem from="1627305288069" duration="22843000" />
       <workItem from="1627391265493" duration="23552000" />
       <workItem from="1627477931390" duration="20742000" />
+      <workItem from="1627686045141" duration="1112000" />
+      <workItem from="1627687225178" duration="510000" />
+      <workItem from="1627849196537" duration="227000" />
+      <workItem from="1627939034490" duration="3940000" />
+      <workItem from="1628009573244" duration="7122000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

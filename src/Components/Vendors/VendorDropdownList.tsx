@@ -1,20 +1,22 @@
 import React, { useState } from 'react';
-import { MenuItems } from './MenuItems';
+import MenuItems from './MenuItems';
 //import {Switch, Route} from 'react-router-dom'
 import '../Dropdown.css';
 import { Link } from 'react-router-dom';
 
-function VendorDropdown() {
+// @ts-ignore
+function VendorDropdown({data, cardIndex}) {
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
 
+    // @ts-ignore
     return (
         <>
             <ul
                 onClick={handleClick}
                 className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
-                {MenuItems.map((item, index) => {
+                {data[cardIndex].map((item: any, index: any) => {
                     return (
                         <li key={index}>
                             <Link

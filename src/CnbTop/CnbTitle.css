@@ -2,15 +2,18 @@
     margin-bottom: 10px;
 }
 .main-container{
-    /*margin:0 auto;*/
+    background-color: #eeeee6;
+    padding: 20px;
     align-items:center;
     justify-content:space-between;
     text-align:center;
+    /*background-image: url("http://cnbcom.com/wp-content/uploads/2019/11/CNB-logo-1.jpg");*/
+
 }
 .cnbTitle {
     text-align: center;
     color: #02382d;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 20px;
     font-size: 70px;
     font-family: 'Encode Sans SC', sans-serif;
@@ -44,7 +47,7 @@
 }
 
 .grid-item {
-    background-color: #eeeee6;
+
     text-align:center;
     margin-top: 10px;
     margin-left:10px;
