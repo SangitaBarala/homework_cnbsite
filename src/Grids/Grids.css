@@ -4,9 +4,10 @@
 }
 
 .main-card--container {
+    background-color: #b6a6f1;
     display: grid;
     grid-template-columns: repeat(4, minmax(300px, 500px));
-    grid-gap: 50px;
+    grid-gap: 30px;
     justify-content: space-around;
 }
 
@@ -93,7 +94,7 @@
     height: 1px;
     position: absolute;
     top: 9px;
-    width: 75%;
+    width: 100%;
 }
 
 .card-tag {
@@ -125,7 +126,7 @@
 }
 
 @media (max-width: 998px) {
-    .main-card--cointainer {
+    .main-card--container {
         display: grid;
         grid-template-columns: repeat(1, minmax(200px, 500px));
         grid-gap: 50px;

@@ -11,7 +11,7 @@ const Sidebar = () => {
        setState(e.target.value)
     }
     return(
-        <div className="main-class">
+        <div id="orderTable" className="main-class">
             <div className="sidebar">
                 {sidebarData.map((i, key)=>{
                     return(

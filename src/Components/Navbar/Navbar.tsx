@@ -6,7 +6,6 @@ import Btn from "../Btn";
 import '../Btn.css'
 import './Navbar.css'
 import CnbItemsDropdown from '../CNB/CnbItemsDropdown';
-import MenuItems from "../Vendors/MenuItems";
 import AllVendors from "../Vendors/AllVendor";
 // import Login from "../Authentication/Login";
 // import Register from "../Authentication/Register";
@@ -52,9 +51,6 @@ const Navbar = () => {
     return (
         <div className='navbar navbar-fixed-top' >
             <nav className="navbar">
-                {/*<Link to="/" className="navbar-logo">*/}
-                {/*    CNB-NET*/}
-                {/*</Link>*/}
                 <a href="#home" className="navbar-logo">
                     CNB-NET
                 </a>
@@ -71,13 +67,7 @@ const Navbar = () => {
                         <Link to="/vendors" className="nav-links" onClick={closeMenu}>
                             Vendors <i className="fas fa-caret-down"/>
                         </Link>
-
-                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={0}/>}
-                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={1}/>}
-                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={2}/>}
-                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={3}/>}
-                        {dropdown && <VendorDropdown data={MenuItems} cardIndex={4}/>}
-
+                        {dropdown && <VendorDropdown/>}
                     </li>
                     <li className='nav-item'  onMouseEnter={onMouseEnterCnb} onMouseLeave={onMouseLeaveCnb}>
                         <Link to="/cnbServices" className="nav-links" onClick={closeMenu}>

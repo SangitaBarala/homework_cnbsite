@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0e213c8-cd37-433b-af40-32ebd5be0c33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CnbTop/CnbTitle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CnbTop/CnbTitle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CnbTop/CnbTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CnbTop/CnbTitle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TableData/MainTable2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TableData/MainTable2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Vendors/AllVendor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vendors/AllVendor.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Vendors/AllVendorsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vendors/AllVendorsList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Vendors/MenuItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vendors/MenuItems.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Vendors/VendorDropdownList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Vendors/VendorDropdownList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grids/Grids.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grids/Grids.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,7 @@
       <workItem from="1627849196537" duration="227000" />
       <workItem from="1627939034490" duration="3940000" />
       <workItem from="1628009573244" duration="7122000" />
+      <workItem from="1628031358125" duration="5237000" />
     </task>
     <servers />
   </component>
